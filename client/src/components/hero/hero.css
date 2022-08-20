@@ -1,0 +1,52 @@
+.hero-container {
+  padding: 1% 5%;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+  background-image: url("./furniturehero.jpg");
+  background-size: cover;
+}
+
+.hero-text-wrapper {
+  margin-top: 15%;
+  margin-left: 10%;
+  width: 600px;
+}
+
+.hero-paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+
+  color: #6e6765;
+}
+
+.white-heading {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  font-style: normal;
+  color: #a0abb3;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-paragraph {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .white-heading {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .hero-text-wrapper {
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
